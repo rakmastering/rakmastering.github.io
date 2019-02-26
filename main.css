@@ -1,0 +1,108 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Merriweather', serif;
+	letter-spacing: -0.02em;
+	line-height: 100%;
+	margin: 0.1em 0 0.3em;
+	letter-spacing: 0.03em;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: 400;
+}
+
+body {
+	font-family: helvetica,arial,sans-serif;
+    font-weight: 100;
+	background: #fff4e0;
+	color: #3f200e;
+	margin: 0 auto;
+}
+
+a, a:active, a:visited {
+	color: #3f200e;
+	text-decoration: none;
+}
+
+p,table {
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 0 2px 25px;
+}
+
+header {
+	width: 928px;
+	border-bottom: 1px solid #ead7b7;
+	margin: 40px auto 0;
+	padding: 0 6px 10px;
+}
+
+header .logo {
+	display: block;
+	float: left;
+}
+
+section {
+	overflow: hidden;
+	width: 940px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ead7b7;
+	margin: 0 auto;
+	padding:9px 0px;
+}
+
+.closed-for-business {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.closed-for-business h2 {
+	margin-bottom: 40px;
+}
+
+footer {
+	color: #646464;
+	width: 940px;
+	clear: both;
+	font-family: 'Merriweather', serif;
+	border-top: 1px solid #fff;
+	margin: 0 auto;
+	padding: 9px 0 0;
+}
+
+footer span {
+	float: right;
+}
+
+footer .small {
+	font-size: 11px;
+	color: #999;
+}
+
+footer a:hover,#options ul li a:hover {
+	text-decoration: underline;
+}
